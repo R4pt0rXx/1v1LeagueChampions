@@ -128,21 +128,6 @@ def generateChamps():
 genChampBtn = Button(root, text="Generate Champions", command=generateChamps)
 genChampBtn.grid(row=4, column=0, columnspan=3)
 
-#magicLabel = Label(root, text="", font=("Arial", 16))
-#magicLabel.grid(row = 5, column=0, columnspan=3, pady=10)
-#def magicIstToll():
-#    magicLabel['text'] = "Nein, Magic ist ein Huso!"
-#genMagic = Button(root, text="Magic ist toll!", command=magicIstToll)
-#genMagic.grid(row=2, column=0, columnspan=3)
-
-#Button Exit
-#def expopup():
-#    response = messagebox.askquestion("Exit", "Do you want to Exit?")
-#    if response == 'yes':
-#        root.destroy()
-#exitbtn = Button(root, text="Exit", command=expopup)
-#exitbtn.grid(row=5, column=0, columnspan=3, pady=20, rowspan=10)
-
 #Close Window Button
 def on_close():
     response=messagebox.askyesno('Exit','Are you sure you want to exit?')
